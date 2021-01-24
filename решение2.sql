@@ -14,8 +14,6 @@ CREATE TABLE `orders` (
 INSERT INTO couriers (`fio`, `status`)
 VALUES ("Sergey Semkin", 0),("Alex", 1),("Nom", 2);
 
-INSERT INTO `orders` (`delivery_date`, `courier_id`)
-VALUES ('2013-03-30', 1),('2013-03-30', 2),('2013-03-30', 1);
 
 
 
